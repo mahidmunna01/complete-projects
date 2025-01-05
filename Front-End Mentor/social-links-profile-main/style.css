@@ -1,0 +1,100 @@
+:root{
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100vh;
+}
+
+body{
+  background-color: var(--Grey-900);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.card{
+  background-color: var(--Grey-800);
+  padding: 26px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+.first_div img{
+ width: 100px;
+ border-radius: 100%;
+ margin-bottom: 25px;
+}
+
+.first_div  {
+  padding:10px;
+}
+
+.first_div h1 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.first_div h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--Green);
+}
+
+.first_div p {
+  margin-top: 25px;
+}
+
+.second_div{
+  padding: 10px;
+}
+.second_div h4{
+  background-color: var(--Grey-700);
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.second_div a {
+  color: white;
+  text-decoration: none;
+}
+
+.second_div h4:hover {
+  background-color: var(--Green);
+  color: black;
+}
+
+.second_div h4:hover a {
+  color: black;
+}
+
+
+@media screen and (max-width:375px)
+ 
+{
+  
+  .card{
+    width: 85%;
+  }
+
+}

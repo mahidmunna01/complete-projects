@@ -1,0 +1,42 @@
+@media screen and (max-width:430px) {
+  * {
+     background-color: black; 
+  }
+
+  .child_content a {
+    color: white;
+  }
+
+  .header_area img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
+
+  .main_menu ul {
+    display: none;
+  }
+
+  .hero_section {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+  }
+
+  .main_content {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 10px;
+  }
+
+
+  footer a {
+    color: white;
+    font-size: 80%;
+  }
+
+
+
+
+}

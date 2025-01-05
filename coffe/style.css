@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #ff3838;
+}
+
+nav p {
+  font-size: 35px;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+address {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 2px;
+  border-bottom: 2px inset white;
+}
+
+
+ul {
+  background-color: #ff3838;
+  margin: 0;
+  border-bottom: 2px solid white;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.child a {
+  text-decoration: none;
+  color: black;
+  padding: 2% 4%;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+.parent {
+  background-color: #ddd;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2px;
+}
+
+.child {
+  background-color: #ff3838;
+}
+
+.child h1 {
+  font-size: 25px;
+  color: white;
+}
+
+.child h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.child p {
+  margin: 5%;
+}
+
+.child p a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.child:nth-child(n):hover {
+  background-color: black;
+}
+
+footer a{
+  text-decoration: none;
+  font-size: 22px;
+  color:#ff3838 ;
+  font-weight: bold;
+}

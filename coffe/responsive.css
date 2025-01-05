@@ -1,0 +1,72 @@
+@media screen and (max-width:470px) {
+
+
+  :root {
+    --primary_color: blueviolet;
+
+
+  }
+
+  nav {
+    background-color: var(--primary_color);
+    padding: 3%;
+  }
+
+  nav p {
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  address {
+    font-size: 18px;
+  }
+
+  ul {
+    background-color: var(--primary_color);
+  }
+
+  ul li {
+    padding: 10px;
+  }
+
+  ul li a {
+    font-size: 18px;
+  }
+
+  .child {
+    background-color: var(--primary_color);
+  }
+
+  .child h1,
+  .child h3 {
+    font-size: 15px;
+  }
+
+  .child p a {
+    font-size: 10px;
+  }
+
+
+  footer a{
+  font-size: 16px;
+  color:blueviolet ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

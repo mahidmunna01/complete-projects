@@ -1,0 +1,116 @@
+@media screen and (max-width:475px) {
+ body{
+padding: 0;
+}
+
+
+p{
+  font-size: 15px;
+}
+
+
+.fullpage{
+  width: 100%;
+  height: auto;
+  background-color: var(--White);
+  cursor: pointer;
+  border-radius: 0;
+  padding: 0;
+}
+
+.first h1,
+.first p{
+  padding-left: 10%;
+}
+
+
+.fullpage .second,
+.fullpage .third,
+.fullpage .four,
+.fullpage .five
+{
+  padding: 10%;
+}
+
+
+img{
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+
+/* Start Second Div */
+
+.second h2{
+  font-size: 18px;
+}
+.second ul li{
+  margin-left: 15px;
+}
+.second ul li::marker{
+  font-size: 10px;
+}
+.second ul li span{
+  font-weight: 600;
+}
+/* End Second Div */
+
+
+
+
+
+
+/* Start four Div */
+
+.four ul li{
+ font-size: 14px;
+}
+.four ul li span{
+ font-family: var(--secondaryfont);
+ font-weight: 600;
+}
+.four ul li::marker{
+  color: var(--Rose800);
+  font-size: 15px;
+  font-weight: bold;
+}
+/* End four Div */
+
+
+
+
+
+
+/* Start five Div */
+
+tr{
+  line-height: 3em;
+  border-bottom: 1px solid #ddd;
+  font-family: var(--secondaryfont);
+  font-size: 12px;
+}
+/* End five Div */
+
+
+
+
+/* Start footer */
+footer{
+  text-align: center;
+  margin: 1em;
+}
+footer a{
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+  font-size: 12px;
+}
+/* End footer */
+
+
+
+
+/* Thanks @Mahid Munna */
+
+}

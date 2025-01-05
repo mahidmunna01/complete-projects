@@ -1,0 +1,116 @@
+/*ipad_design*/
+@media screen and (max-width:780px) and (min-width:250px) {
+  .hero_section {
+    width: 100%;
+    background-color: #232323;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  header {
+    background-color: white;
+  }
+
+  .hero_section a {
+    color: white;
+  }
+
+
+  .hero_section a:hover {
+    color: red;
+  }
+
+  .main_menu ul li a {
+    color: white;
+  }
+
+  .main_menu ul li a:hover {
+    color: crimson;
+  }
+
+  .main_menu {
+
+    border-bottom: 2px solid white;
+  }
+
+
+  .main_menu ul li {
+    margin: 02px 05px;
+  }
+
+  .main_content {
+    width: 100%;
+    border-right: 0px solid;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 50% 50%;
+  }
+
+  .child_content {
+    width: 100%;
+    background-color:black;
+    border-radius: 5px;
+    color:white;
+  }
+
+  .child_content img {
+    width: 100%;
+    border-radius: 2px;
+    
+  }
+  
+
+  .main_sidebar {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 5px;
+  
+}
+
+.child_sidebar {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.child_sidebar  {
+  color: white;
+}
+
+.child_sidebar img {
+  width: 100%;
+}
+
+
+ footer p a{
+  color: white;
+ }
+ footer p a:hover{
+  color: orangered;
+ }
+
+
+footer p a{
+  background: linear-gradient(90deg,red, orangered,green,crimson, red);
+  background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  animation: text 2s infinite linear;
+ }
+
+ @keyframes text {
+  
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 200%;
+  }
+
+ }
+
+  
+}

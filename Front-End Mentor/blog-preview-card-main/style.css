@@ -1,0 +1,116 @@
+:root{
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray500: hsl(0, 0%, 42%);
+  --Gray950: hsl(0, 0%, 7%);
+  --primary-font:"Figtree", sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+div{
+  margin-bottom: 15px;
+}
+h1,button,p,img{
+  margin-bottom: 10px;
+}
+
+html,body{
+  height: 100vh;
+}
+body{
+  font-size: 16px;
+  font-family: var(--primary-font);
+  background-color: var(--Yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card{
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--White);
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid;
+  box-shadow: 05px 5px;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.hero_image{
+  border-radius:10px;
+}
+.avatar_img{
+ width: 50px;
+ cursor: pointer;
+}
+button{
+  padding:2% 15px;
+  background-color: var(--Yellow);
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button:hover{
+  background-color: black;
+  border: 1px solid #ddd;
+}
+button:hover a {
+  color: white;
+}
+button a{
+  text-decoration: none;
+  color: var(--Gray950);
+  font-weight: 800;
+}
+h1 a{
+  text-decoration: none;
+  color: var(--Gray950);
+  font-size: 26px;
+  font-weight: 800;
+}
+h1 a:hover{
+  color: var(--Yellow);
+}
+.card div:last-child{
+  display: flex;
+  margin: 0;
+}
+.card div:last-child p{
+  position: relative;
+  left:5%;
+  margin-top: 15px;
+  font-weight: 800;
+}
+footer{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-style: italic;
+}
+footer a{
+  text-decoration: none;
+  color: orangered;
+}
+
+/* Responsive Area by Mahid Munna */
+
+@media screen and (max-width:410px){
+  .card{
+    width: 90%;
+  }
+   h1 a{
+  font-size: 20px;
+  }
+  footer{
+    font-size: 12px;
+  }
+}
+
+/* Coderby Mahid Munna 01571203361 */

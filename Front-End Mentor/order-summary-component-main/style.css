@@ -1,0 +1,113 @@
+/*### Primary*/
+:root{
+ --Paleblue: hsl(225, 100%, 94%);
+ --Brightblue: hsl(245, 75%, 52%);
+}
+
+/*### Neutral*/
+:root{
+ --Verypaleblue: hsl(225, 100%, 98%); 
+ --Desaturatedblue: hsl(224, 23%, 55%); 
+ --Darkblue: hsl(223, 47%, 23%);
+}
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ list-style: none;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(pattern_background_desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card{
+  width: 100%;
+  max-width:350px;
+  background-color: var(--Verypaleblue);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background-image: url(illustration_hero.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  }
+
+img{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+div{
+  padding: 15px;
+}
+.second_div h4{
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.third_div{
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  align-items: center;
+  background-color: var(--Paleblue);
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.third_div img{
+  border-radius: 100px;
+  border: 1px solid #ddd;
+}
+.third_div a{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.fourth_div{
+  background-color: var(--Brightblue);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.fourth_div a{
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+p a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+@media screen and (max-width:460px) {
+  
+ .card{
+  width: 90%;
+ }
+  
+ body{
+  background-color: var(--Paleblue);
+  background-image: url(none);
+} 
+  
+}
+
+

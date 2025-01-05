@@ -1,0 +1,126 @@
+:root 
+{
+ --Brightorange: hsl(31, 77%, 52%);
+ --Darkcyan: hsl(184, 100%, 22%);
+ --Verydarkcyan: hsl(179, 100%, 13%);
+ --paragraphs: hsla(0, 0%, 100%, 0.75);
+ --Verylightgray: hsl(0, 0%, 95%);
+}
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: "Lexend Deca", sans-serif;
+}
+html,body{
+  height: 100vh;
+}
+ body{
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Verylightgray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ img{
+  max-width: 100%;
+  display: block;
+ }
+ section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ }
+ section div{
+  width: 100%;
+  max-width: 300px;
+  padding: 12%;
+  cursor: pointer;
+ }
+ div h1{
+  font-size: 25px;
+  color: white;
+  margin-top: 10%;
+ }
+ div p{
+  color: var(--paragraphs);
+  margin-top: 15%;
+ }
+ div button{
+  color: white;
+  margin-top: 20%;
+  padding: 4% 20px;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+ }
+ div button a{
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .first{
+  background-color: var(--Brightorange);
+ }
+ .first:hover{
+  background-color: var(--Darkcyan);
+ }
+ .second{
+  background-color: var(--Verydarkcyan)
+ }
+  .second:hover{
+  background-color: var(--Darkcyan);
+ }
+ .third{
+  background-color: var(--Darkcyan);
+ }
+ .third:hover{
+  background-color: black;
+ }
+ .first a {
+  color: var(--Brightorange)
+ }
+ .second a {
+  color: var(--Darkcyan);
+ }
+  .third a {
+  color: var(--Verydarkcyan);
+ }
+
+ section .first{
+  border-radius: 10px 0px 0px 10px;
+ }
+ section .third{
+  border-radius: 0px 10px 10px 0px;
+ }
+
+
+ div:hover img{
+  margin-left: 50%;
+  transition: 2s;
+ }
+
+
+
+ @media screen and (max-width:650px) {
+
+  section{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+ }
+
+  section div{
+  width: 90%;
+  height: auto;
+ }
+
+   section .first{
+  border-radius: 0px 10px 0px 0px;
+ }
+ section .third{
+  border-radius: 0px 0px 10px 10px;
+ }
+
+ }
+

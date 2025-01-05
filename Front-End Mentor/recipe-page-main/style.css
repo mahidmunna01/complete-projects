@@ -1,0 +1,205 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+    --primaryfont:"Young Serif", serif;
+    --secondaryfont:"Outfit", sans-serif;
+}
+
+
+/* Basic style */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+
+
+p{
+  font-size: 16px;
+  font-family: var(--secondaryfont);
+}
+div h2{
+   margin-top: 1em;
+  font-family: var(--primaryfont);
+  color: var(--Brown800);
+  font-weight: 400;
+}
+
+
+h1,h2,p{
+  margin-bottom: 10px;
+}
+
+
+body{
+background-color: var(--Stone100);
+padding: 60px;
+}
+
+
+/* Full Recipe Page Body */
+.fullpage{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 2em;
+  background-color: var(--White);
+  margin: 0 auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+
+/* Start First Div */
+img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
+.first h1{
+  font-family: var(--primaryfont);
+  font-weight: 400;
+}
+.first p{
+  margin-bottom: 30px;
+}
+/* End First Div */
+
+
+
+
+
+
+/* Start Second Div */
+.second{
+  background-color: var(--Rose50);
+  padding: 20px;
+  border-radius: 10px;
+}
+.second h2{
+  font-size: 20px;
+  font-family: var(--secondaryfont);
+  color: var(--Rose800);
+  font-weight: 600;
+}
+.second ul li{
+  font-family: var(--secondaryfont);
+  list-style-type: square;
+  margin-left: 20px;
+  line-height: 2em;
+  padding-left: 10px;
+}
+.second ul li::marker{
+  color: var(--Rose800);
+  font-size: 12px;
+}
+.second ul li span{
+  font-weight: 600;
+}
+/* End Second Div */
+
+
+
+
+
+/* Start Third Div */
+.third{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+.third ul li{
+  list-style-type: square;
+  margin-left: 25px;
+  line-height: 2em;
+  font-family: var(--secondaryfont);
+  padding-left: 10px;
+}
+.third ul li::marker{
+  color: var(--Rose800);
+  font-size: 12px;
+}
+/* End Third Div */
+
+
+
+
+
+
+
+/* Start four Div */
+.four{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+.four ul li{
+  list-style-type: decimal;
+  margin-left: 25px;
+  line-height: 2em;
+  font-family: var(--secondaryfont);
+  padding-left: 10px;
+}
+.four ul li span{
+ font-family: var(--secondaryfont);
+ font-weight: 600;
+}
+.four ul li::marker{
+  color: var(--Rose800);
+  font-size: 15px;
+  font-weight: bold;
+}
+/* End four Div */
+
+
+
+
+
+
+/* Start five Div */
+.five table{
+ table-layout: fixed;
+ border-collapse: collapse;
+ width: 100%;
+ margin-bottom: 10px;
+}
+.wght{
+  color: var(--Rose800);
+  font-weight: 600;
+  font-family: var(--secondaryfont);
+}
+tr{
+  line-height: 2em;
+  border-bottom: 1px solid #ddd;
+  font-family: var(--secondaryfont);
+}
+
+/* End five Div */
+
+
+
+
+
+
+
+/* Start footer */
+footer{
+  text-align: center;
+  margin-top: 1em;
+}
+footer a{
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+/* End footer */
+
+/* Thanks @Mahid Munna */

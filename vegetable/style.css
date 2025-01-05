@@ -1,0 +1,136 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: crimson;
+}
+
+nav {
+  text-align: center;
+  border-bottom: 3px solid crimson;
+  position: sticky;
+  top: 0;
+}
+
+nav p {
+  margin: 0;
+  font-size: 35px;
+  color: white;
+  background-color: crimson;
+  font-weight: bold;
+  
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+address {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-bottom: 2px solid;
+}
+
+.parent {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2px;
+}
+
+.child img {
+  width: 50%;
+}
+
+.child {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+
+p a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 5%;
+  border-radius: 4px;
+  background-color: white;
+}
+
+p a:hover {
+  background-color: crimson;
+  color: white;
+}
+
+/*Text animation add*/
+
+li a {
+
+  background: linear-gradient(90deg, white, #e52e7e, green,white);
+  background-clip: text;
+  color: transparent;
+  animation: text_animation 2s infinite linear;
+  background-size: 200%;
+
+}
+
+@keyframes text_animation {
+
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 200%;
+  }
+}
+
+
+footer{
+  text-align: center;
+}
+
+footer a{
+  background-color: crimson;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+
+footer a {
+
+  background: linear-gradient(90deg, white, black, green,white);
+  background-clip: text;
+  color: transparent;
+  animation: text_animation 2s infinite linear;
+  background-size: 200%;
+
+}
+
+@keyframes text_animation {
+
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 200%;
+  }
+}
+

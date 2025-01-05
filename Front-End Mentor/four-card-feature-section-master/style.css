@@ -1,0 +1,238 @@
+:root{  
+ /* ### Primary */
+ --Red: hsl(0, 78%, 62%);
+ --Cyan: hsl(180, 62%, 55%);
+ --Orange: hsl(34, 97%, 64%);
+ --Blue: hsl(212, 86%, 64%);
+
+ /* ### Neutral */
+ --VeryDarkBlue: hsl(234, 12%, 34%);
+ --GrayishBlue: hsl(229, 6%, 66%);
+ --VeryLightGray: hsl(0, 0%, 98%);
+
+ --font-family: "Poppins", sans-serif;;
+ /* - Weights: 200, 400, 600 */
+}
+
+body{
+  font-family: var(--font-family);
+  background-color: var(--VeryLightGray);
+}
+
+body p{
+  font-size: 15px;
+  color: var(--VeryDarkBlue);
+}
+
+
+/* Main Section */
+section{
+  width: 100%;
+  max-width: 1140px;
+  height: auto;
+  margin: auto;
+}
+
+/* First div */
+section .top{
+  text-align: center;
+}
+.top h1{
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.top h2{
+  margin-top: 0;
+}
+.top p{
+  padding: 0 24%;
+}
+/* First div close */
+
+
+/* Second div */
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 550px; 
+}
+
+img{
+  width: 20%;
+  margin: 0 0px 0 75%;
+}
+
+/* Child div Start */
+.supervisor{
+  height: 220px;
+  border-top: 5px solid var(--Cyan);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  flex-basis: 25%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  top: 150px;
+  left:130px ;
+  box-shadow: 0px 0px 06px #232323;
+  overflow: auto;
+  transition: 1s;
+  cursor: pointer;
+}
+.supervisor:hover{
+  background-color: var(--Cyan);
+  color: white;
+  transition: 1s;
+}
+.supervisor:hover p{
+  color: white;
+  transition: 1s;
+}
+.team{
+  height: 220px;
+  border-top: 5px solid var(--Red);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  flex-basis: 25%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 150px;
+  box-shadow: 0px 0px 06px #232323;
+  overflow: auto;
+  cursor: pointer;
+}
+.team:hover{
+  background-color: var(--Red);
+  color: white;
+  transition: 1s;
+}
+
+.team:hover p{
+  color: white;
+  transition: 1s;
+}
+.karma{
+  height: 220px;
+  border-top: 5px solid var(--Orange);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  flex-basis: 25%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  top: 150px;
+  left:170px ;
+  box-shadow: 0px 0px 06px #232323;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.karma:hover{
+  background-color: var(--Orange);
+  color: white;
+  transition: 1s;
+}
+
+.karma:hover p{
+  color: white;
+  transition: 1s;
+}
+
+.calculator{
+  height: 220px;
+  border-top: 5px solid var(--Blue);
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  flex-basis: 25%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  top: 300px;
+  right: 420px;
+  box-shadow: 0px 0px 06px #232323;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.calculator:hover{
+  background-color: var(--Blue);
+  color: white;
+  transition: 1s;
+}
+
+.calculator:hover p{
+  color: white;
+  transition: 1s;
+}
+
+
+.bottom p{
+  font-weight: 300;
+}
+.bottom h1{
+  font-weight: 600;
+}
+
+/* Child div Close */
+
+footer{
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--Red);
+}
+::selection{
+  color: orangered;
+}
+
+/* Mobile Responsive Area Start */
+
+@media screen and (max-width:1140px){
+  .top h1,h2{
+    font-size: 20px;
+  }
+  .top p{ 
+  padding: 0;
+  text-align: center;
+}
+ .bottom{
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  height: auto;
+}
+ .supervisor{
+  width: 300px;
+  position: static;
+}
+.team{
+  width: 300px;
+  padding: 10px;
+  position: static;
+}
+.karma{
+  width: 300px;
+  position: static;
+}
+.calculator{
+  width: 300px;
+  position: static;
+}
+footer p{
+  font-size: 12px;
+}
+ footer a{
+  font-size: 12px;
+}
+}
+/* Thanks For Reading My Code */
+/* @Mahid Munna */
